@@ -61,6 +61,8 @@ log(32, 2)
 log(32, base = 2)
 log(base=2, 32)
 
+
+
 abs(-pi)
 
 factorial(7)
@@ -79,9 +81,11 @@ log(4^6, 4)
 
 choose(5,2)
 
+choose(6,2)
+
 sin(60*pi/180)
 
-cos(60*pi/180)
+cos(60*pi/180) 
 
 sinpi(1/2) # = sin (pi/2)
 
@@ -122,6 +126,7 @@ round(sqrt(2))
 round(digits = 5, sqrt(2))
 round(5, sqrt(2))
 
+round(1.36, 2)
 
 floor(-3.45)
 ceiling(-3.45)
@@ -144,6 +149,7 @@ nombre = "Juan Gabriel"
 HOLA = 1
 hola = 5
 
+
 pi.4 = 4*pi
 pi.4
 
@@ -160,6 +166,7 @@ f = function(x) {
 f(4) # 4^3 - 3^4 * sin(4)
 f(5)
 f(pi/2)
+
 
 suma1 <- function(t){
   t + 1
@@ -187,10 +194,6 @@ suma5 <- function(numero){
 }
 
 suma5(3)
-
-ls()
-
-rm(product)
 
 ls()
 
